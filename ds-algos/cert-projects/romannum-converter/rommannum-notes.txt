@@ -1,0 +1,51 @@
+TEST CASES
+
+9 = IX
+16 = XVI
+649 = DCXLIX
+1023 = MXXIII
+3999 = MMMCMXCIX
+
+switch (numInput) {
+  case 1000:
+    console.log("M");
+    break;
+  case 900:
+    console.log("CM");
+    break;
+  case 500:
+    console.log("D");
+    break;
+  case 400:
+    console.log("CD");
+    break;
+  case 100:
+    console.log("C");
+    break;
+  case 90:
+    console.log("XC");
+    break;
+  case 50:
+    console.log("L");
+    break;
+  case 40:
+    console.log("XL");
+    break;
+  case 10:
+    console.log("X");
+    break;
+  case 9:
+    console.log("IX");
+    break;
+  case 5:
+    console.log("V");
+    break;
+  case 4:
+    console.log("IV");
+    break;
+  case 1:
+    console.log("I");
+    break;
+  default:
+    return numInput;
+}

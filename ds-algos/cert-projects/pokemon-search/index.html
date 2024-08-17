@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pokemon Search</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h2>Gotta Search 'em All!</h2>
+    <p>Search for Pokémon Name or ID:</p>
+
+    <input type="text" id="search-input" required />
+    <button id="search-button" onclick="pokeSearch()">Search</button>
+
+    <div id="result"></div>
+
+    <h2>Details</h2>
+    <div>
+      <div id="spriteImg"></div>
+
+      <span id="pokemon-name"></span> <span id="pokemon-id"></span>
+      <p>Weight</p>
+      <p id="weight"></p>
+      <p>Height</p>
+      <p id="height"></p>
+      <p>Types</p>
+      <div id="types"></div>
+    </div>
+
+    <h2>Stats</h2>
+    <div>
+      <p>HP</p>
+      <p id="hp"></p>
+      <p>Attacks</p>
+      <p id="attack"></p>
+      <p>Defense</p>
+      <p id="defense"></p>
+      <p>Special Attack</p>
+      <p id="special-attack"></p>
+      <p>Special Defense</p>
+      <p id="special-defense"></p>
+      <p>Speed</p>
+      <p id="speed"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
