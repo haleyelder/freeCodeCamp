@@ -16,9 +16,9 @@ const validateInput = () => {
     let reverseStr = filteredStr.split("").reverse().join("");
 
     if (filteredStr.toLowerCase() === reverseStr) {
-      result.innerText = `${str} is a palindrome`;
+      result.innerHTML = `<p><span class="palin">${str}</span> is a palindrome</p>`;
     } else {
-      result.innerText =  `${str} is not a palindrome`;
+      result.innerHTML = `<p><span class="not-palin">${str}</span> is not a palindrome</p>`;
     }
   }
 };
